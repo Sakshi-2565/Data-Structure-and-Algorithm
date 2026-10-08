@@ -61,4 +61,3 @@ class Solution:
         return [LB, UB - 1]
             
 
-    
