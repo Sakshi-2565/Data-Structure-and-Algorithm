@@ -16,3 +16,6 @@ class Solution:
             for j in range(0,c):
                 if rowtrack[i]==-1 or coltrack[j]==-1:
                     matrix[i][j]=0
+
+# Time Complexity = O(2(N*M)) ~ O(N*M)
+# Space Complexity = O(N+M)

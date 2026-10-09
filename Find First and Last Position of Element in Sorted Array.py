@@ -15,6 +15,8 @@ class Solution:
 
         return [first,last]
 
+# Time Complexity = O(N)
+# Space Complexity = O(1)
 
 ##############   OPTIMAL SOLUTION(Binary Search)   ###############
 
@@ -60,4 +62,5 @@ class Solution:
 
         return [LB, UB - 1]
             
-
+# Time Complexity = O(2logn) -> O(logn)
+# Space Complexity = O(1)

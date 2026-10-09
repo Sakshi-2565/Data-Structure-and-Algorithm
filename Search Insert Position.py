@@ -14,3 +14,6 @@ class Solution:
             else:
                 low = mid+1
         return lb
+
+# Time Complexity = O(logn)
+# Space Complexity = O(1)

@@ -14,3 +14,6 @@ class Solution:
                 neg+=2
 
         return result
+
+# Time Complexity = O(N)
+# Space Complexity = O(1)

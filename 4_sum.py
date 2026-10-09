@@ -20,6 +20,8 @@ def BruteForce(num,target):
 num = [1,0,-1,0,-2,2]
 print(BruteForce(num,0))
 
+# Time Complexity = O(N**4)
+# Space Complexity = O(N)
 
 ########## BETTER SOLUTION #################
 
@@ -42,6 +44,9 @@ def Better(num,target):
 
 num = [1,0,-1,0,-2,2]
 print(Better(num,0))
+
+# Time Complexity = O(N**3)
+# Space Complexity = O(N)
 
 ####### OPTIMAL ####################
 

@@ -24,3 +24,6 @@ class Solution:
                     while j<k and nums[k]==nums[k+1]:
                         k-=1
         return ans
+
+# Time Complexity = O(NlogN) + O(N**2)
+# Space Complexity = O(No. of triplets)

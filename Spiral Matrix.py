@@ -29,3 +29,7 @@ class Solution:
                     result.append(matrix[i][left])
                 left+=1
         return result
+
+
+# Time Complexity = O(N*M) --> O(rows * columns)
+# Space Complexity = O(1)

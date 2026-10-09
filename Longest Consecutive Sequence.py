@@ -12,3 +12,6 @@ class Solution:
                 longest=max(longest,length)
 
         return longest
+
+# Time Complexity = O(N+N+N) = O(N) ~ O(N)
+# Space Complexity = O(N)
