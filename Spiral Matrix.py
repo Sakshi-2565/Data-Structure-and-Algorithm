@@ -2,32 +2,32 @@ class Solution:
     def spiralOrder(self, matrix: list[list[int]]) -> list[int]:
         if not matrix or not matrix[0]:
             return []
-        result=[]
+        result = []
 
         # Initialize pointers for traversal
-        top, left = 0,0
-        bottom,right=len(matrix)-1,len(matrix[0])-1
+        top, left = 0, 0
+        bottom, right = len(matrix) - 1, len(matrix[0]) - 1
 
         # Traverse the matrix in a spiral order.
         while top <= bottom and left <= right:
             # Move left to right across the top row.
-            for i in range(left,right+1):
+            for i in range(left, right + 1):
                 result.append(matrix[top][i])
-            top+=1
+            top += 1
 
-            for i in range(top,bottom+1):
+            for i in range(top, bottom + 1):
                 result.append(matrix[i][right])
-            right-=1
+            right -= 1
 
-            if top<=bottom:
-                for i in range(right,left-1,-1):
+            if top <= bottom:
+                for i in range(right, left - 1, -1):
                     result.append(matrix[bottom][i])
-                bottom-=1
+                bottom -= 1
 
-            if left<=right:
-                for i in range(bottom,top-1,-1):
+            if left <= right:
+                for i in range(bottom, top - 1, -1):
                     result.append(matrix[i][left])
-                left+=1
+                left += 1
         return result
 
 
