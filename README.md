@@ -18,6 +18,7 @@ Build strong problem-solving skills 🧠 and prepare for coding interviews 🎯
 | 🔤 Strings | ✅ |
 | 🔢 Sorting | ✅ |
 | 🔗 Linked Lists | ✅ |
+| 🔄 Recursion | 🚧 |
 | 📚 Stacks & Queues | 🚧 |
 | 🌳 Trees | ⏳ |
 | 🕸️ Graphs | ⏳ |
